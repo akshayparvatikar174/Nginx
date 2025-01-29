@@ -1,7 +1,7 @@
 control 'nginx-version' do
   impact 1.0
   title 'version check'
-  desc 'Check if nginx version is installed'
+  desc 'Check for nginx version'
   describe nginx do
     its('version') { should eq '1.26.2' }
   end
