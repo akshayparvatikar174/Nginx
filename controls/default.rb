@@ -3,6 +3,6 @@ control 'nginx-version' do
   title 'version check'
   desc 'Check for nginx version'
   describe nginx do
-    its('version') { should eq '1.24.0' }
+    its('version') { should eq '1.27.3' }
   end
 end
